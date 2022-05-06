@@ -1,0 +1,91 @@
+Sentença ----- frases de um texto
+            Organização de code
+Bloco  ------ parágrafos
+
+Comentário //
+
+Comentário maior /*comentário*/
+
+ 
+
+Bloco de cod se inicia com { .sent
+                                   .sent
+                                       .sent } 
+
+
+Atalhos ctrl+/ comentário
+Selecionar as linha e apertar tab p/ dar espaço
+Selecionar as linha e apertar tab+shift p/ eliminar espaço
+Dublicar linha alt+shift+pra baixo
+
+Dados no jS - number, boolean(v ou f), string (texto)
+
+var --- let
+const --- constante, não aceita alteração(dar preferência)
+
+Estrutura de dados --- organizar e administrar os dados
+
+--------------------------------------------------------------------------
+
+Error do 
+
+
+ECMAScript- de execução - mensagem, nome, linha, call stack
+erro de digitação - falta de um ponto, letra etc
+
+
+DOMException - erro do DOM 
+na estrutura no code
+
+---------------------------------------------------------------------------
+
+Tratamento de erros
+
+trhow - 
+
+try catch
+
+
+return
+
+finally - 
+
+----------------------------------------------------------------------------
+
+Assíncromo - que não ocorre ou não se afetiva ao mesmo tempo 
+
+Promises - assíncrono 
+
+1 - pending
+2 - fulfilled
+3 - rejected
+
+async/ await 
+
+-----------------------------------------------------------------------------
+
+Atribuição - = 0
+Comparação - '0' == 0
+Comparação idêntica - === tem o valor e o tipo identico 0 0, verdadeiro no valor e no tipo number
+
+sinais arit
++
+-
+*
+/ divisao real
+% divisao inteira
+** potencialização 
+
+Operadores 
+
+&& - e
+|| ou 
+! não
+
+-----------------------------------------------------------------------------
+Vetores
+ Array - são caixas que guardam dados de todos os tipos
+ex: let array = ['oi', 1, true]
+
+
+objetos { nome(atributo) e valor }

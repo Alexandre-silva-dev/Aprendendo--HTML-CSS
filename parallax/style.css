@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Roboto+Condensed:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#08090D;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+main{
+    display: block;
+    background-color: #fff;
+    
+}
+
+section.module.parallax h1{
+    font-size: 78px;
+    font-weight: bold;
+    color: #0B0B0D;
+    text-align: center;
+    z-index: 50%;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    font-weight: 600;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+section.module p{
+    margin-bottom: 40px;
+}
+
+section.module:last-child{
+    margin-bottom: 0;
+}
+
+section.module h2{
+    margin-bottom: 40px;
+}
+
+section.module.content{
+    padding: 40px;
+    background:#F2BF5E;
+}
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section.module.parallax::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: linear-gradient(to bottom,rgba(0,0,0,0), 0, rgba(0,0,0,0) 40%, #000 100%);
+}
+
+section.module.parallax-1{
+    background-image:url(pexels-lukas-942802.jpg);
+
+}
+section.module.parallax-2{
+    background-image:url(pexels-lukas-1419931.jpg);
+
+}
+section.module.parallax-3{
+    background-image:url(pexels-jason-villanueva-851555.jpg);
+
+}
+section.module.parallax-4{
+    background-image:url(pexels-helena-lopes-1015568.jpg);
+
+}
